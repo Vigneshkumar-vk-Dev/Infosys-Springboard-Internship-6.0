@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  background: antiquewhite;
+  color: #222;
+  text-align: center;
+}
+
+.app.dark {
+  background: #121212;
+  color: #f1f1f1;
+}
+
+main {
+  width: 320px;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.box {
+  background: whitesmoke;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  display: none;
+}
+
+.app.dark .box {
+  background: #1e1e1e;
+}
+
+.box.active {
+  display: block;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.password-container {
+  position: relative;
+}
+
+.password-container input {
+  padding-right: 40px;
+}
+
+.toggle-eye {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 18px;
+  user-select: none;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  background: darkseagreen;
+}
+
+button:hover {
+  background: green;
+}
+
+.link-text {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.link {
+  color: darkseagreen;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.link:hover {
+  color: green;
+  text-decoration: underline;
+}
+
+.top-bar {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.top-bar button {
+  width: auto;
+  padding: 8px 14px;
+  font-size: 14px;
+  background: darkseagreen;
+}
+
+.top-bar button:hover {
+  background: green;
+}
