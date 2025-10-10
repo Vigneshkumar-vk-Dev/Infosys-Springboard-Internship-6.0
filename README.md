@@ -7,30 +7,32 @@
 ---
 
 ## Repository Structure
-This repository contains the complete project including **frontend, backend, database scripts, and documentation**. The work is organized into **Module 1 to Module3**:
+This repository contains the complete project including **frontend, backend, database scripts, and documentation**. The work is organized into **Module 1 to Module 4**:
 
-- **Module 1**:  
+- **Module 1 (M1)**:  
   - JDK configuration and dependency setup  
   - Basic login and authentication module  
-  - Admin, Driver, and User module creation
-  - Doucumentation
+  - Admin, Driver, and User module creation  
 
-- **Module 2**:  
+- **Module 2 (M2)**:  
   - Live tracking map integration  
   - Vehicle registration and management  
   - Route and trip management logic  
-  - Basic UI integration
-  - React Learning
-  - Springboot Learning
-  - Documentation 
+  - Basic UI integration  
 
-- **Module 3**:  
+- **Module 3 (M3)**:  
   - AI-based route optimization  
   - Analytics dashboard (Revenue, Trip data)  
   - Smart alerts and notifications  
   - Maven project creation in Eclipse  
-  - Database connection
-  - Documentation
+  - Database connection  
+
+- **Module 4 (M4)**:
+  - Validation and bug fixing
+  - Enhanced analytics dashboard and AI-based route optimization
+  - Backend–frontend integration  
+  - System deployment on local server  
+  - Final documentation and demo preparation  
 
 ---
 
@@ -52,9 +54,10 @@ This repository contains the complete project including **frontend, backend, dat
 - Java JDK 17+  
 - Eclipse IDE with Maven support  
 - Node.js & npm  
-- MySQL Server
-- Vs Code
+- MySQL Server  
 
 ### Database Setup
 1. Open **MySQL Workbench**.  
-2. Create a new database:
+2. Create a new database:  
+```sql
+CREATE DATABASE neurofleetx_db;
