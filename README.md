@@ -57,6 +57,4 @@ This repository contains the complete project including **frontend, backend, dat
 
 ### Database Setup
 1. Open **MySQL Workbench**.  
-2. Create a new database:  
-```sql
-C
+2. Create a new database:
