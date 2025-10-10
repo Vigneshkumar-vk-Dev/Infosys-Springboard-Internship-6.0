@@ -9,25 +9,25 @@
 ## Repository Structure
 This repository contains the complete project including **frontend, backend, database scripts, and documentation**. The work is organized into **Module 1 to Module 4**:
 
-- **Module 1 (M1)**:  
+- **Module 1**:  
   - JDK configuration and dependency setup  
   - Basic login and authentication module  
   - Admin, Driver, and User module creation  
 
-- **Module 2 (M2)**:  
+- **Module 2**:  
   - Live tracking map integration  
   - Vehicle registration and management  
   - Route and trip management logic  
   - Basic UI integration  
 
-- **Module 3 (M3)**:  
+- **Module 3**:  
   - AI-based route optimization  
   - Analytics dashboard (Revenue, Trip data)  
   - Smart alerts and notifications  
   - Maven project creation in Eclipse  
   - Database connection  
 
-- **Module 4 (M4)**:
+- **Module 4**:
   - Validation and bug fixing
   - Enhanced analytics dashboard and AI-based route optimization
   - Backend–frontend integration  
